@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ASCIImation</title>
+    <link href="ascii.css" type="text/css" rel="stylesheet">
+    <script src="ascii.js" type="text/javascript"></script>
+    <script src="animations.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container">
+    <p class="heading">CS472: ASCII ANIMATION VIEWER</p>
+    <textarea id="viewer" cols="80" rows="20"></textarea>
+    <br />
+    <fieldset>
+        <legend>Play Controls</legend>
+        <button value="Start" id="startAnim" onclick="localSpace.start()">Start</button>
+        <button value="Stop" id="endAnim" onclick="localSpace.stop()" disabled>Stop</button>
+    </fieldset>
+    <fieldset>
+        <legend >Animation</legend>
+        <select id="AnimTypes">
+            <option selected>Blank</option>
+            <option >Exercise</option>
+            <option>Juggler</option>
+            <option>Bike</option>
+            <option>Dive</option>
+            <option>Custom</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Size</legend>
+        <select id="Size">
+            <option value="7px">Tiny</option>
+            <option value="10px">Small</option>
+            <option selected value="12px">Medium</option>
+            <option value="16px">Large</option>
+            <option value="24px">Extra Large</option>
+            <option value="32px">XXL</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Speed</legend>
+        <label><input type="checkbox" value="Turbo" id="Speed">Turbo</label>
+    </fieldset>
+    <!--<div id="validators">-->
+        <!--<a href="http://validator.w3.org/check/referer"><img src="w3c-html.png" alt="Valid HTML5"></a> <br>-->
+        <!--<a href="http://jigsaw.w3.org/css-validator/check/referer"><img src="w3c-css.png" alt="Valid CSS"></a><br>-->
+        <!--<a href="https://webster.cs.washington.edu/jslint/?referer" target="_blank">-->
+            <!--<img src="w3c-js.png" alt="Valid JS">-->
+        <!--</a>-->
+    <!--</div>-->
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,26 @@
+body{
+    background-color: #CCCCFF;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.container{
+    text-align: center;
+}
+.heading{
+    font-size: 32pt;
+    font-weight: bold;
+}
+#viewer{
+    width:90%;
+    height:400px;
+    font:12pt bold monospace;
+}
+fieldset{
+    display:inline;
+    border: 5px solid black;
+}
+#validators {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
